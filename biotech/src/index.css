@@ -1,0 +1,49 @@
+:root {
+  font-family: Aptos, 'Segoe UI Variable', 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #183126;
+  background:
+    radial-gradient(circle at top left, rgba(214, 245, 225, 0.9), rgba(214, 245, 225, 0) 35%),
+    radial-gradient(circle at bottom right, rgba(240, 231, 201, 0.7), rgba(240, 231, 201, 0) 32%),
+    linear-gradient(180deg, #f5f2e8 0%, #edf4ef 52%, #edf3f7 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --brand-green: #0d925a;
+  --brand-green-deep: #0a5940;
+  --accent-amber: #de8f2a;
+  --accent-amber-deep: #a96715;
+  --accent-blue-deep: #2e6c9d;
+  --accent-red: #c2493b;
+  --ink-950: #10251d;
+  --ink-900: #163126;
+  --ink-800: #224336;
+  --ink-700: #365d4d;
+  --ink-650: #577768;
+  --ink-600: #68887a;
+  --panel-shadow: 0 18px 46px rgba(20, 47, 37, 0.09);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
